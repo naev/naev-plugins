@@ -18,4 +18,3 @@ The plugin information format is a stub of the `plugin.xml` that is necessary in
 ```
 
 To obtain the plugin you can either use a `<git>` node indicating that the link is to a git repository, or you can use a `<link>` to directly link to a zip file to download.
-
