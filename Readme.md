@@ -12,6 +12,7 @@ The plugin information format is a stub of the `plugin.xml` that is necessary in
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin name="Sea of Mayonnaise">
  <author>Naev DevTeam</author>
+ <license>GPLv3+</license>
  <website>https://github.com/naev/total_conversion_plugin_example</website>
  <git>https://github.com/naev/total_conversion_plugin_example</git>
 </plugin>
