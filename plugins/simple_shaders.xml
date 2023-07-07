@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin name="Simple Shaders">
+ <author>Naev DevTeam</author>
+ <license>GPLv3+</license>
+ <git>https://github.com/naev/simple-shaders-plugin</git>
+</plugin>
