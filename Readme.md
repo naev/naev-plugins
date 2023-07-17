@@ -4,6 +4,20 @@ This repository is meant to be a place to centralize a list of approved
 plugins. If you want to make changes such as adding plugins or updating their
 information, please open a pull request to do so.
 
+## How to Use Plugins
+
+*Due to a lack of a proper plugin manager ([help wanted!](https://github.com/naev/naev/issues/2180)), installation has to be
+done manually at the moment.*
+
+### Manual Install
+
+Installation is as simple as dropping the plugin `.zip` file (or entire
+directory, such as git clone) into your plugin directory. You can find your
+plugin directory by running Naev, clicking on options, then clicking on
+plugins. When you launch Naev, it should automatically detect the plugins and
+load them. You can check loaded plugins by looking at the plugins tab in the
+options menu.
+
 ## Plugin Information Format
 
 The plugin information format is a stub of the `plugin.xml` that is necessary in each plugin with additional information on where to get the plugin. In particular, an example is shown below.
