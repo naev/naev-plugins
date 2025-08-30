@@ -2,5 +2,5 @@
 <plugin name="No Pirates">
  <author>Naev DevTeam</author>
  <license>BSD</license>
- <source>https://codeberg.org/naev/plugin-no-pirates</source>
+ <git>https://codeberg.org/naev/plugin-no-pirates</git>
 </plugin>
