@@ -1,0 +1,4 @@
+identifier = "NoPirates"
+name = "No Pirates"
+source = { git = "https://codeberg.org/naev/plugin-no-pirates" }
+metadata = "https://codeberg.org/naev/plugin-no-pirates/raw/branch/main/plugin.toml"

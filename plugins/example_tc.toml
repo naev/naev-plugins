@@ -1,0 +1,4 @@
+identifier = "ExampleTC"
+name = "Sea of Mayonnaise"
+source = { git = "https://codeberg.org/naev/plugin-total-conversion-example.git" }
+metadata = "https://codeberg.org/naev/plugin-total-conversion-example/raw/branch/main/plugin.toml"

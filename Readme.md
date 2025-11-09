@@ -20,22 +20,21 @@ options menu.
 
 ## Plugin Information Format
 
-The plugin information format is a stub of the `plugin.xml` that is necessary in each plugin with additional information on where to get the plugin. In particular, an example is shown below.
+The plugin information format is a stub of the `plugin.toml` that is necessary
+in each plugin with additional information on where to get the plugin. For this
+repository, only a few fields are necessary. In particular, a complete example
+is shown below.
 
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<plugin name="Sea of Mayonnaise">
- <author>Naev DevTeam</author>
- <license>GPLv3+</license>
- <website>https://codeberg.org/naev/plugin-total-conversion-example.git</website>
- <git>https://codeberg.org/naev/plugin-total-conversion-example.git</git>
-</plugin>
+```toml
+identifier = "ExampleTC"
+name = "Sea of Mayonnaise"
+source = { git = "https://codeberg.org/naev/plugin-total-conversion-example.git" }
+metadata = "https://codeberg.org/naev/plugin-total-conversion-example/raw/branch/main/plugin.toml"
 ```
 
 To obtain the plugin you can either use a `<git>` node indicating that the link is to a git repository, or you can use a `<link>` to directly link to a zip file to download. A summary of the available nodes is shown below:
 
-1. `<author>`: Specifies the author(s) of the plugin.
-1. `<git>`: specifies the git repository of the plugin. Is not necessary if `<link>` is used instead.
-1. `<link>`: specifies a direct link to download a zip of the plugin. Is not necessary if `<git>` is used instead.
-1. `<website>` *(optional)*: specifies the website of the plugin
-1. `<license>` *(optional)*: Specifies the license of the plugin.
+1. `identifier`: Specifies the unique identifier of the plugin. Should not overlap with any other existing plugins, and be short and concise.
+1. `name`: Full name of the plugin.
+1. `source`: Specifies where the main repository is stored. This can be either a git repository with `{ git = "..." }` or a direct download with `{ download = "..." }`.
+1. `metadata`: Where the plugin metadata is located. This should be a path to directly download the `plugin.toml` of the plugin, and will be used by the plugin manager to find new information and update the plugin.

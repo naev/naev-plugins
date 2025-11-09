@@ -1,0 +1,4 @@
+identifier = "SimpleShaders"
+name = "Simple Shaders"
+source = { git = "https://codeberg.org/naev/plugin-simple-shaders.git" }
+metadata = "https://codeberg.org/naev/plugin-simple-shaders/raw/branch/main/plugin.toml"
