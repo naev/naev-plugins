@@ -1,0 +1,4 @@
+identifier = "VoidSaintsNova"
+name = "Void Saints: Nova"
+source = { git = "https://codeberg.org/RavelinW/void-saints-nova" }
+metadata = "https://codeberg.org/RavelinW/void-saints-nova/raw/branch/main/plugin.toml"
