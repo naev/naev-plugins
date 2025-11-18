@@ -1,0 +1,4 @@
+identifier = "YesPirates"
+name = "Yes Pirates"
+source = { git = "https://codeberg.org/hypersoop/naev-plugin-yes-pirates" }
+metadata = "https://codeberg.org/hypersoop/naev-plugin-yes-pirates/raw/branch/main/plugin.toml"
