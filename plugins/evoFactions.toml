@@ -1,4 +1,4 @@
 identifier = "evoFactions"
-name = "Evolving Factions"
+name = "Evolving Research Factions"
 source = { git = "https://github.com/ThrosturX/naev-evo-genome.git" }
 metadata = "https://raw.githubusercontent.com/ThrosturX/naev-evo-genome/refs/heads/main/plugin.toml"

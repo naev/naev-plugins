@@ -1,0 +1,4 @@
+identifier = "multiplayer"
+name = "Sea of Multiplayers"
+source = { git = "https://github.com/ThrosturX/naev-multiplayer.git" }
+metadata = "https://raw.githubusercontent.com/ThrosturX/naev-multiplayer/refs/heads/main/plugin.toml"
