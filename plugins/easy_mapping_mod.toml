@@ -1,0 +1,4 @@
+identifier = "EasyMapping"
+name = "Easy Mapping Mod"
+source = { git = "https://github.com/oo13/easy_mapping_plugin_for_naev" }
+metadata = "https://raw.githubusercontent.com/oo13/easy_mapping_plugin_for_naev/refs/heads/main/plugin.toml"
