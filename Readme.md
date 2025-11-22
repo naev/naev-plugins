@@ -6,8 +6,12 @@ information, please open a pull request to do so.
 
 ## How to Use Plugins
 
-*Due to a lack of a proper plugin manager ([help wanted!](https://codeberg.org/naev/naev/issues/2180)), installation has to be
-done manually at the moment.*
+The easiest way to deal with Naev plugins is to use the built-in plugin
+manager. You can find the plugin manager from the main menu after launching the
+game. Clicking on it will open another window that will let you manipulate the
+plugins. When you are done, you can close the window to go back to the game. If
+any plugin was detected to be changed, it will then prompt you to restart Naev,
+so the changes take effect.
 
 ### Manual Install
 
@@ -38,3 +42,5 @@ To obtain the plugin you can either use a `<git>` node indicating that the link 
 1. `name`: Full name of the plugin.
 1. `source`: Specifies where the main repository is stored. This can be either a git repository with `{ git = "..." }` or a direct download with `{ download = "..." }`.
 1. `metadata`: Where the plugin metadata is located. This should be a path to directly download the `plugin.toml` of the plugin, and will be used by the plugin manager to find new information and update the plugin.
+
+More information on plugins is available at [Naev dev manual](https://naev.org/devmanual/plugins/overview.html).
