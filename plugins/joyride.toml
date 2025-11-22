@@ -1,0 +1,4 @@
+identifier = "joyride"
+name = "Auxiliary Ship Bay"
+source = { git = "https://github.com/ThrosturX/naev-auxiliary-bay.git" }
+metadata = "https://raw.githubusercontent.com/ThrosturX/naev-auxiliary-bay/refs/heads/main/plugin.toml"
