@@ -1,0 +1,4 @@
+identifier = "hsBays"
+name = "Zaire's Extra Bays"
+source = { git = "https://codeberg.org/hypersoop/naev-plugin-extra-bays" }
+metadata = "https://codeberg.org/hypersoop/naev-plugin-extra-bays/raw/branch/main/plugin.toml"
