@@ -1,4 +1,4 @@
 identifier = "TransLogo"
 name = "Trans Logo"
-source = { git = "https://codeberg.org/hypersoop/naev-plugin-trans-logo" }
-metadata = "https://codeberg.org/hypersoop/naev-plugin-trans-logo/raw/branch/main/plugin.toml"
+source = { git = "https://codeberg.org/hsza/naev-plugin-trans-logo" }
+metadata = "https://codeberg.org/hsza/naev-plugin-trans-logo/raw/branch/main/plugin.toml"
