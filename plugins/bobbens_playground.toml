@@ -1,0 +1,4 @@
+identifier = "BobbensPlayground"
+name = "Bobbens' Playground"
+source = { git = "https://codeberg.org/bobbens/plugin-playground.git" }
+metadata = "https://codeberg.org/bobbens/plugin-playground/raw/branch/main/plugin.toml"
