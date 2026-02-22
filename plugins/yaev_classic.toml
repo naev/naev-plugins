@@ -1,0 +1,4 @@
+identifier = "YAEVclassic"
+name = "YAEV: Classic"
+source = { git = "https://codeberg.org/bobbens/YAEV_classic.git" }
+metadata = "https://codeberg.org/bobbens/YAEV_classic/raw/branch/main/plugin.toml"
