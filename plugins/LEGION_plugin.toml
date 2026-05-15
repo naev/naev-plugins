@@ -1,6 +1,4 @@
 identifier = "LEGION_plugin"
 name = "LEGION: Smol Toy Ships"
-author = "Ianator"
 source = { git = "https://codeberg.org/Ianator/LEGION_plugin.git" }
-version = "0.1.0"
-abstract = "A total conversion plugin made with LEGO ships."
+metadata = "https://codeberg.org/Ianator/LEGION_plugin/raw/branch/main/plugin.toml"
