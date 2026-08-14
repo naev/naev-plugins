@@ -1,0 +1,4 @@
+identifier = "YAEVoverride"
+name = "YAEV: Override"
+source = { git = "https://codeberg.org/bobbens/YAEV_override.git" }
+metadata = "https://codeberg.org/bobbens/YAEV_override/raw/branch/main/plugin.toml"
