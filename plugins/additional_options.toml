@@ -1,0 +1,4 @@
+identifier = "AdditionalOptions"
+name = "Additional Options"
+source = { git = "https://github.com/clintonmead/naev-additional-options.git" }
+metadata = "https://raw.githubusercontent.com/clintonmead/naev-additional-options/refs/heads/master/plugin.toml"
