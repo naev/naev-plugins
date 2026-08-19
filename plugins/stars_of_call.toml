@@ -1,0 +1,4 @@
+identifier = "StarsOfCall"
+name = "Stars of Call"
+source = { git = "https://github.com/Mutos/SoC-TC" }
+metadata = "https://raw.githubusercontent.com/Mutos/SoC-TC/refs/heads/main/plugin.toml"
